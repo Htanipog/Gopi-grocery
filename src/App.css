@@ -1,0 +1,54 @@
+.heading{
+  background-color: rgb(172, 114, 114);
+  text-align: center;
+  padding: 2rem 0px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.add-item{
+  background-color: aqua;
+}
+
+.add-item > div{
+  margin: 1rem 0;
+}
+
+.add-item label{
+  display: block;
+}
+
+.add-item input,
+.add-item select {
+  height: 100%;
+  width: 100%;
+}
+.btn{
+  border: none;
+  background-color: blue;
+  color:antiquewhite;
+  padding: 10px;
+}
+.item{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.item > div{
+  flex:1;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.item:nth-child(even)
+{
+  background-color: blueviolet;
+}
+.footer {
+  background-color: greenyellow;
+  color: blue;
+  text-align: center;
+  padding:  2rem 0px;
+  font-size: 15px;
+  position: relative;
+  width: 100%;
+}
